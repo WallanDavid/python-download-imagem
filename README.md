@@ -1,26 +1,74 @@
-Download de Imagens do Site
-Este é um script em Python que permite baixar imagens de um site especificado pelo usuário. Ele oferece uma interface de usuário simples e amigável para facilitar o uso.
+# 🖼️ Python Download de Imagens
 
-Funcionalidades
-Download de Imagens: Baixa todas as imagens de um site especificado.
-Escolha de Site: Permite que o usuário forneça o URL do site de onde deseja baixar imagens.
-Escolha de Pasta de Saída: Permite que o usuário especifique a pasta onde deseja salvar as imagens baixadas.
-Exibição de Progresso: Mostra o progresso do download das imagens.
-Gerenciamento de Exceções: Lida com erros de conexão, URL inválida e outros erros possíveis de forma amigável.
-Interface de Linha de Comando (CLI): Oferece uma interface de linha de comando para executar o script.
-Interface Gráfica de Usuário (GUI): Fornece uma interface gráfica intuitiva para interação com o usuário.
-Opções de Configuração: Permite que o usuário configure opções como timeout de conexão, número máximo de tentativas e outros parâmetros.
-Feedback Interativo: Fornece feedback interativo durante todo o processo de download.
-Documentação Detalhada: Inclui um README.md detalhado para ajudar os usuários a entenderem como usar o script.
-Como Usar
-Clone este repositório em seu sistema local.
-Certifique-se de ter o Python instalado em seu sistema.
-Instale as dependências necessárias executando o seguinte comando:
-Copy code
-pip install -r requirements.txt
-Execute o script principal:
-Para a interface de linha de comando (CLI), execute python main_cli.py.
-Para a interface gráfica de usuário (GUI), execute python main_gui.py.
-Siga as instruções na interface para fornecer o URL do site e a pasta de saída para salvar as imagens.
-Aguarde enquanto o script baixa as imagens do site especificado.
-Após a conclusão, verifique a pasta de saída especificada para as imagens baixadas
+Este é um script em **Python** que permite baixar **todas as imagens de um site** informado pelo usuário. Ele oferece tanto uma **interface de linha de comando (CLI)** quanto uma **interface gráfica (GUI)** para facilitar o uso e melhorar a experiência.
+
+---
+
+## ⚙️ Funcionalidades
+
+- 🔽 **Download de Imagens:** Baixa automaticamente todas as imagens de um site informado
+- 🌐 **Escolha de URL:** Usuário informa o site de onde as imagens serão baixadas
+- 📁 **Escolha de Pasta de Saída:** Usuário define onde salvar as imagens
+- 📊 **Exibição de Progresso:** Mostra status durante o download
+- 🔄 **Gerenciamento de Exceções:** Trata erros de conexão, URLs inválidas, timeout e mais
+- 🖥️ **Interface CLI:** Versão simples para terminal
+- 🖱️ **Interface GUI:** Versão com janelas gráficas (intuitiva)
+- ⚙️ **Opções de Configuração:** Timeout, número de tentativas, entre outros
+- 💬 **Feedback Interativo:** Mensagens durante a execução para guiar o usuário
+
+---
+
+## 📦 Como Usar
+
+1. **Clone o repositório:**
+   git clone https://github.com/WallanDavid/python-download-imagem.git
+
+2. **Acesse o diretório do projeto:**
+   cd python-download-imagem
+
+3. **(Opcional) Crie e ative um ambiente virtual:**
+   python -m venv venv  
+   source venv/bin/activate (Linux/macOS)  
+   venv\Scripts\activate (Windows)
+
+4. **Instale as dependências:**
+   pip install -r requirements.txt
+
+---
+
+## ▶️ Execução
+
+- **Modo CLI (linha de comando):**
+  python main_cli.py
+
+- **Modo GUI (gráfico):**
+  python main_gui.py
+
+---
+
+## 📁 Resultado
+
+As imagens serão salvas na pasta especificada durante a execução. O script garante que não haja duplicações e evita arquivos corrompidos.
+
+---
+
+## 🛠️ Possíveis Melhorias Futuras
+
+- Suporte a filtros (por tipo de imagem, resolução etc.)
+- Histórico de URLs acessadas
+- Modo headless (sem abrir janela na GUI)
+- Exportar log de imagens baixadas
+
+---
+
+## 📜 Licença
+
+Este projeto está licenciado sob os termos da [MIT License](LICENSE).
+
+---
+
+## 📫 Contato
+
+**Desenvolvedor:** Wallan David Peixoto  
+**Email:** bobwallan2@gmail.com  
+**LinkedIn:** https://www.linkedin.com/in/wallanpeixoto
